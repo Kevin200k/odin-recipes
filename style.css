@@ -1,0 +1,41 @@
+*{
+    font-family: calibiri, Arial, Helvetica, sans-serif;
+    margin:0px;
+
+}
+div{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 2.3rem;
+
+}
+h1{
+    background-color: black;
+    color: white;
+    padding-top: 0.25rem;
+}
+ul{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top:0,8rem;
+}
+li{
+    list-style-type: none;
+    background: black;
+}
+a{
+    padding-right:0.5rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+    font-size: 1.25rem;
+}
+a:hover{
+    color:aqua;
+}
+img{
+   margin: 0px;
+    
+}
