@@ -1,36 +1,50 @@
 *{
-    font-family: calibiri, Arial, Helvetica, sans-serif;
+    font-family: FiraSans, calibiri, Arial, Helvetica, sans-serif;
     margin:0px;
 
+}
+@font-face {
+    font-family: FiraSans;
+    src: url(F/FiraSans-Light.ttf);
 }
 div{
     display: flex;
     flex-direction: row;
     background-color: black;
     padding: 2.3rem;
-
+    margin: auto;
 }
+    
+nav{
+    margin:auto;
+    float: right;
+    font-size: 1.5rem;
+}
+
 h1{
     background-color: black;
     color: white;
     padding-top: 0.25rem;
 }
-ul{
-    background-color: black;
+.mine{
     display: flex;
     flex-direction: row;
-    margin-top:0,8rem;
+    margin: auto;
+    margin-left:70rem;
 }
 li{
     list-style-type: none;
-    background: black;
+    text-align: right;
 }
 a{
-    padding-right:0.5rem;
+    padding-right:2.3rem;
     text-decoration: none;
     color: white;
     background: black;
+    float:right;
     font-size: 1.25rem;
+    
+    
 }
 a:hover{
     color:aqua;
